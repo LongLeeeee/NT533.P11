@@ -29,7 +29,9 @@ Apache OpenWhisk là một nền tảng <strong>Serverless</strong> mã nguồn 
 
 ### Kiến trúc của Apache OpenWhisk
 
-![Alt text](/OpenWhisk_flow_of_processing.png "OpenWhisk Flow of Processing")
+  <p align="center">
+  <img src="OpenWhisk_flow_of_processing.png" alt="OpenWhisk Flow of Processing" width="auto">
+  </p>
 
  <ol>
 
