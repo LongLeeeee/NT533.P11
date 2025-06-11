@@ -64,3 +64,12 @@ LLà message broker chịu trách nhiệm truyền tải các yêu cầu thực 
 </li>
  </ol>
  Ngoài ra còn có API Gateway. API Gateway cung cấp các endpoint HTTP để kích hoạt các Actions, cho phép tích hợp dễ dàng với các ứng dụng web và di động.
+
+### Tổng quan về hệ thống hệ thống đề xuất
+
+Nhóm triển khai một trang web có tính năng chuyển đổi các giữa các hệ thập phân,nhị phân, thập lục phân,...
+Từ trang web sẽ thông qua API được tạo từ các Action của OpenWhisk để gửi request đến và nhận kết quả trả về. Như vậy OpenWhisk sẽ đóng vai trò là backend để xử lý các request của trang web thông qua API được tạo từ Action.
+
+ <p align="center">
+  <img src="image.png" alt="OpenWhisk Flow of Processing" width="auto">
+  </p>

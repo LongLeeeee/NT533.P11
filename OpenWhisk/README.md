@@ -8,7 +8,7 @@ Cập nhật danh sách gói phần mềm trên tất cả các node.
 sudo apt update
 ```
 
-Trên máy master, tiến hành tải script có sẵn tại https://get.k3s.io để cài đặt K3s.
+Trên máy master, tiến hành tải script có sẵn [tại đây](https://get.k3s.io) để cài đặt K3s.
 
 ```sh
 curl -sfL https://get.k3s.io | sh -
